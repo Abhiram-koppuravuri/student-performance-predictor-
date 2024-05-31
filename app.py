@@ -1,4 +1,5 @@
 from flask import Flask,request,render_template
+from flask_cors import cross_origin
 import numpy as np
 import pandas as pd
 import os
@@ -10,9 +11,10 @@ app=Flask(__name__)
 
 ## Route for a home page
 
-@app.route('/')
-def index():
-    return render_template('index.html') 
+@app.route("/")
+@cross_origin()
+def home():
+    return render_template("home.html")
 
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
