@@ -6,6 +6,7 @@ scikit-learn
 catboost
 xgboost
 Flask
+Flask-Cors==4.0.1
 dill
 gunicorn==22.0.0
 #-e .
