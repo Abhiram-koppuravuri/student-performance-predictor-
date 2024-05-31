@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* More readable font stack */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1965a3; /* Softer, calming background */
+    color: #333; /* Darker text for contrast */
+}
+
+.login {
+    background-color: #fff;
+    padding: 40px; /* More padding for visual breathing room */
+    border-radius: 12px; /* Slightly rounder corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    width: 90%; 
+    max-width: 550px; /* A bit more width */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* More space between heading and form */
+    color: #007bff; /* Blue heading for emphasis */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555; /* Slightly lighter gray for subtitles */
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.mb-3 {
+    margin-bottom: 20px; /* More space between form fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* More space between label and input */
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ddd; /* Lighter border */
+    border-radius: 6px; /* Softer corners */
+    width: 100%; 
+    box-sizing: border-box; 
+    transition: border-color 0.2s; /* Subtle focus effect */
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 14px 25px; /* Slightly larger button */
+    border: none;
+    border-radius: 8px; /* Softer corners */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) { 
+    .login {
+        width: 95%;
+        padding: 30px; /* Less padding on smaller screens */
+    }
+}
+
