@@ -6,5 +6,8 @@
 # Demonstration
 
 
-https://github.com/Abhiram-koppuravuri/student-performance-predictor-/assets/121746477/1e5fb2c0-5a94-472e-9fad-2be81d685784
+
+
+
+https://github.com/Abhiram-koppuravuri/student-performance-predictor-/assets/121746477/4aae450e-02fe-49b7-8311-1361e6bc43d4
 
